@@ -1,0 +1,27 @@
+{
+  "museoApp": {
+    "collecPerma": {
+      "home": {
+        "title": "Coleccion Permanente",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nueva coleccion permanente",
+        "createOrEditLabel": "Crear o editar Coleccion permanente",
+        "notFound": "Ningún Coleccion permanente encontrada"
+      },
+      "created": "Una nuevo Coleccion permanente ha sido creada con el identificador {{ param }}",
+      "updated": "Una coleccion permanente ha sido actualizada con el identificador {{ param }}",
+      "deleted": "Una coleccion permanente ha sido eliminada con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Collec Perma {{ id }}?"
+      },
+      "detail": {
+        "title": "Coleccion Permanente"
+      },
+      "id": "ID",
+      "exhibiAlmacen": "Exhibicion o en Almacen",
+      "costo": "Costo",
+      "fecha": "Fecha",
+      "objArte": "ID Objeto de Arte"
+    }
+  }
+}

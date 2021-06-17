@@ -42,7 +42,9 @@
     "jwtSecretKey": "MDI2OWJlMThiMjA3NzNjMDYyNmNlMjRiMTViYjMxYWI2OThlNTQwOTg5ODllYjU0Y2U4Njg3YTU4MjBhZjcxZGI4OTc4MTMyNWI4ZTllZWFiOWE3MDg2MWVlNmJiNGMwNjg1NzNjNjA0Y2Q5MzdkMzBhN2M2MDg1M2RjODY1YmM=",
     "clientTheme": "none",
     "clientThemeVariant": "",
-    "reactive": false
+    "reactive": false,
+    "entities": ["ObjArte", "Artista", "Exhibicion", "Pintura", "Escultura", "OtroObj", "CollecPresta", "CollecPerma"],
+    "lastLiquibaseTimestamp": 1623895073000
   },
   "git-provider": "GitHub",
   "git-company": "JoseEduardoRivera",

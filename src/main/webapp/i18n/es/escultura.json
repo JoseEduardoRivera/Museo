@@ -1,0 +1,28 @@
+{
+  "museoApp": {
+    "escultura": {
+      "home": {
+        "title": "Esculturas",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Escultura",
+        "createOrEditLabel": "Crear o editar Escultura",
+        "notFound": "Ningún Esculturas encontrado"
+      },
+      "created": "Un nuevo Escultura ha sido creado con el identificador {{ param }}",
+      "updated": "Un Escultura ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Escultura ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Escultura {{ id }}?"
+      },
+      "detail": {
+        "title": "Escultura"
+      },
+      "id": "ID",
+      "altura": "Altura",
+      "material": "Material",
+      "estilo": "Estilo",
+      "peso": "Peso",
+      "objArte": "ID Objeto de Arte"
+    }
+  }
+}

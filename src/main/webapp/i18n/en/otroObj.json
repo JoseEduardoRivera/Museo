@@ -1,0 +1,26 @@
+{
+  "museoApp": {
+    "otroObj": {
+      "home": {
+        "title": "Otro Objs",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Otro Obj",
+        "createOrEditLabel": "Create or edit a Otro Obj",
+        "notFound": "No Otro Objs found"
+      },
+      "created": "A new Otro Obj is created with identifier {{ param }}",
+      "updated": "A Otro Obj is updated with identifier {{ param }}",
+      "deleted": "A Otro Obj is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Otro Obj {{ id }}?"
+      },
+      "detail": {
+        "title": "Otro Obj"
+      },
+      "id": "ID",
+      "tipo": "Tipo",
+      "estilo": "Estilo",
+      "objArte": "Obj Arte"
+    }
+  }
+}

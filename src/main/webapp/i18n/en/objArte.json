@@ -1,0 +1,36 @@
+{
+  "museoApp": {
+    "objArte": {
+      "home": {
+        "title": "Obj Artes",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Obj Arte",
+        "createOrEditLabel": "Create or edit a Obj Arte",
+        "notFound": "No Obj Artes found"
+      },
+      "created": "A new Obj Arte is created with identifier {{ param }}",
+      "updated": "A Obj Arte is updated with identifier {{ param }}",
+      "deleted": "A Obj Arte is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Obj Arte {{ id }}?"
+      },
+      "detail": {
+        "title": "Obj Arte"
+      },
+      "id": "ID",
+      "idObjArt": "Id Obj Art",
+      "paisCultura": "Pais Cultura",
+      "anio": "Anio",
+      "tituloObj": "Titulo Obj",
+      "descObj": "Desc Obj",
+      "epocaObj": "Epoca Obj",
+      "collecPerma": "Collec Perma",
+      "collecPresta": "Collec Presta",
+      "pintura": "Pintura",
+      "escultura": "Escultura",
+      "otroObj": "Otro Obj",
+      "artista": "Artista",
+      "exhibicion": "Exhibicion"
+    }
+  }
+}

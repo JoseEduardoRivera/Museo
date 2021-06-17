@@ -1,0 +1,36 @@
+{
+  "museoApp": {
+    "objArte": {
+      "home": {
+        "title": "Obj Artes",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Obj Arte",
+        "createOrEditLabel": "Crear o editar Obj Arte",
+        "notFound": "Ningún Obj Artes encontrado"
+      },
+      "created": "Un nuevo Obj Arte ha sido creado con el identificador {{ param }}",
+      "updated": "Un Obj Arte ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Obj Arte ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Obj Arte {{ id }}?"
+      },
+      "detail": {
+        "title": "Obj Arte"
+      },
+      "id": "ID",
+      "idObjArt": "Id Obj Art",
+      "paisCultura": "Pais Cultura",
+      "anio": "Año",
+      "tituloObj": "Titulo del Objeto",
+      "descObj": "Descripcion del Objeto",
+      "epocaObj": "Epoca del Objeto",
+      "collecPerma": "Coleccion permanente",
+      "collecPresta": "Colecccion prestamo",
+      "pintura": "Pintura",
+      "escultura": "Escultura",
+      "otroObj": "Otro Objeto",
+      "artista": "Artista",
+      "exhibicion": "Exhibicion"
+    }
+  }
+}

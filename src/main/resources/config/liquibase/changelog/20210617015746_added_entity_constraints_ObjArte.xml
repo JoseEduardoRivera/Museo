@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+    <!--
+        Added the constraints for entity ObjArte.
+    -->
+    <changeSet id="20210617015746-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="obj_arte_id"
+                                 baseTableName="rel_obj_arte__artista"
+                                 constraintName="fk_rel_obj_arte__artista__obj_arte_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="obj_arte"/>
+
+        <addForeignKeyConstraint baseColumnNames="artista_id"
+                                 baseTableName="rel_obj_arte__artista"
+                                 constraintName="fk_rel_obj_arte__artista__artista_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="artista"/>
+
+        <addForeignKeyConstraint baseColumnNames="exhibicion_id"
+                                 baseTableName="obj_arte"
+                                 constraintName="fk_obj_arte__exhibicion_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="exhibicion"/>
+    </changeSet>
+</databaseChangeLog>

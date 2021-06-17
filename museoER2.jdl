@@ -1,0 +1,90 @@
+
+
+entity ObjArte {
+	idObjArt String required unique
+    paisCultura String required
+    anio String
+    tituloObj String required
+    descObj String required
+    epocaObj String required
+    
+}
+
+entity Artista {
+	nomArt String required unique
+    fechNac String required
+    fechDefu String 
+    paisOrigen String required
+    estiloArt String required
+    epoca String required
+    
+}
+
+entity Exhibicion {
+	nomExi String required unique
+    fechIni String required
+    fechFin String required
+    
+}
+
+entity Pintura {	
+    tipoPintura String required
+    materialPintura String required
+    estiloPint String required
+    
+}
+
+entity Escultura {	
+    altura String required
+    material String required
+    estilo String required
+    peso String required
+    
+}
+
+entity OtroObj {
+    tipo String required
+    estilo String required
+   
+}
+
+entity CollecPresta {
+    infPrest String required
+    fechPrest String required
+    fechDev String required
+    
+}
+
+entity CollecPerma {
+    exhibiAlmacen String required
+    costo String required
+    fecha String required
+    
+}
+
+relationship ManyToMany{
+    ObjArte{Artista(nomArt)} to Artista{ObjArte(idObjArt)} //**Muchos objetos de arte pueden tener muchos artistas*//
+}
+
+
+relationship OneToMany {
+Exhibicion{ObjArte(nomExi)} to ObjArte{Exhibicion(nomExi)}          //**Una exhibicion puede tener muchos objetos de arte*//
+ObjArte{CollecPerma(idObjArt)} to CollecPerma{ObjArte(idObjArt)}     //**Muchos objetos de arte pueden estar en colecciones permanentes*/
+ObjArte{CollecPresta(idObjArt)} to CollecPresta{ObjArte(idObjArt)}   //**Muchos objetos de arte pueden estar en colecciones de prestamo*//
+ObjArte{Pintura(idObjArt)} to Pintura{ObjArte(idObjArt)}             //**Muchos objetos de arte pueden ser pinturas*//
+ObjArte{Escultura(idObjArt)} to Escultura{ObjArte(idObjArt)}         //**Muchos objetos de arte pueden ser esculturas*//
+ObjArte{OtroObj(idObjArt)} to OtroObj{ObjArte(idObjArt)}             //**Muchos objetos de arte pueden ser de otro tipo*//
+
+}
+
+// Set pagination options
+paginate all with pagination
+
+// Use Data Transfer Objects (DTO)
+dto * with mapstruct
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl 
+
+filter all

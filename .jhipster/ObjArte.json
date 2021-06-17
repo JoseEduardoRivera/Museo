@@ -1,0 +1,96 @@
+{
+  "name": "ObjArte",
+  "fields": [
+    {
+      "fieldName": "idObjArt",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "paisCultura",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "anio",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tituloObj",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "descObj",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "epocaObj",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "collecPerma",
+      "otherEntityRelationshipName": "objArte",
+      "relationshipName": "collecPerma",
+      "otherEntityField": "idObjArt"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "collecPresta",
+      "otherEntityRelationshipName": "objArte",
+      "relationshipName": "collecPresta",
+      "otherEntityField": "idObjArt"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "pintura",
+      "otherEntityRelationshipName": "objArte",
+      "relationshipName": "pintura",
+      "otherEntityField": "idObjArt"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "escultura",
+      "otherEntityRelationshipName": "objArte",
+      "relationshipName": "escultura",
+      "otherEntityField": "idObjArt"
+    },
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "otroObj",
+      "otherEntityRelationshipName": "objArte",
+      "relationshipName": "otroObj",
+      "otherEntityField": "idObjArt"
+    },
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "artista",
+      "otherEntityRelationshipName": "objArte",
+      "relationshipName": "artista",
+      "otherEntityField": "nomArt",
+      "ownerSide": true
+    },
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "exhibicion",
+      "otherEntityRelationshipName": "objArte",
+      "relationshipName": "exhibicion",
+      "otherEntityField": "nomExi"
+    }
+  ],
+  "entityTableName": "obj_arte",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210617015746"
+}

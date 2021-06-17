@@ -1,0 +1,34 @@
+{
+  "name": "OtroObj",
+  "fields": [
+    {
+      "fieldName": "tipo",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "estilo",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "objArte",
+      "otherEntityRelationshipName": "otroObj",
+      "relationshipName": "objArte",
+      "otherEntityField": "idObjArt"
+    }
+  ],
+  "entityTableName": "otro_obj",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210617015751"
+}

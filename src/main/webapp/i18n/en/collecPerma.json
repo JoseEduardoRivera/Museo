@@ -1,0 +1,27 @@
+{
+  "museoApp": {
+    "collecPerma": {
+      "home": {
+        "title": "Collec Permas",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Collec Perma",
+        "createOrEditLabel": "Create or edit a Collec Perma",
+        "notFound": "No Collec Permas found"
+      },
+      "created": "A new Collec Perma is created with identifier {{ param }}",
+      "updated": "A Collec Perma is updated with identifier {{ param }}",
+      "deleted": "A Collec Perma is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Collec Perma {{ id }}?"
+      },
+      "detail": {
+        "title": "Collec Perma"
+      },
+      "id": "ID",
+      "exhibiAlmacen": "Exhibi Almacen",
+      "costo": "Costo",
+      "fecha": "Fecha",
+      "objArte": "Obj Arte"
+    }
+  }
+}

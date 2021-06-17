@@ -1,0 +1,27 @@
+{
+  "museoApp": {
+    "collecPresta": {
+      "home": {
+        "title": "Collec Prestas",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Collec Presta",
+        "createOrEditLabel": "Create or edit a Collec Presta",
+        "notFound": "No Collec Prestas found"
+      },
+      "created": "A new Collec Presta is created with identifier {{ param }}",
+      "updated": "A Collec Presta is updated with identifier {{ param }}",
+      "deleted": "A Collec Presta is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Collec Presta {{ id }}?"
+      },
+      "detail": {
+        "title": "Collec Presta"
+      },
+      "id": "ID",
+      "infPrest": "Inf Prest",
+      "fechPrest": "Fech Prest",
+      "fechDev": "Fech Dev",
+      "objArte": "Obj Arte"
+    }
+  }
+}

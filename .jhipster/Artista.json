@@ -1,0 +1,54 @@
+{
+  "name": "Artista",
+  "fields": [
+    {
+      "fieldName": "nomArt",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "fechNac",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "fechDefu",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "paisOrigen",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "estiloArt",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "epoca",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-many",
+      "otherEntityName": "objArte",
+      "otherEntityRelationshipName": "artista",
+      "relationshipName": "objArte",
+      "otherEntityField": "idObjArt",
+      "ownerSide": false
+    }
+  ],
+  "entityTableName": "artista",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210617015747"
+}

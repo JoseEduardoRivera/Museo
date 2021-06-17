@@ -1,0 +1,27 @@
+{
+  "museoApp": {
+    "pintura": {
+      "home": {
+        "title": "Pinturas",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Pintura",
+        "createOrEditLabel": "Create or edit a Pintura",
+        "notFound": "No Pinturas found"
+      },
+      "created": "A new Pintura is created with identifier {{ param }}",
+      "updated": "A Pintura is updated with identifier {{ param }}",
+      "deleted": "A Pintura is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Pintura {{ id }}?"
+      },
+      "detail": {
+        "title": "Pintura"
+      },
+      "id": "ID",
+      "tipoPintura": "Tipo Pintura",
+      "materialPintura": "Material Pintura",
+      "estiloPint": "Estilo Pint",
+      "objArte": "Obj Arte"
+    }
+  }
+}

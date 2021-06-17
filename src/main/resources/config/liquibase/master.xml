@@ -15,7 +15,21 @@
     <property name="datetimeType" value="datetime" dbms="oracle, mssql, postgresql, h2"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210617015746_added_entity_ObjArte.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210617015747_added_entity_Artista.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210617015748_added_entity_Exhibicion.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210617015749_added_entity_Pintura.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210617015750_added_entity_Escultura.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210617015751_added_entity_OtroObj.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210617015752_added_entity_CollecPresta.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210617015753_added_entity_CollecPerma.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20210617015746_added_entity_constraints_ObjArte.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210617015749_added_entity_constraints_Pintura.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210617015750_added_entity_constraints_Escultura.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210617015751_added_entity_constraints_OtroObj.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210617015752_added_entity_constraints_CollecPresta.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20210617015753_added_entity_constraints_CollecPerma.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>

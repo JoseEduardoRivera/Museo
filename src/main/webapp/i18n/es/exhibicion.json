@@ -1,0 +1,27 @@
+{
+  "museoApp": {
+    "exhibicion": {
+      "home": {
+        "title": "Exhibicion",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Exhibicion",
+        "createOrEditLabel": "Crear o editar Exhibicion",
+        "notFound": "Ningún Exhibicions encontrado"
+      },
+      "created": "Un nuevo Exhibicion ha sido creado con el identificador {{ param }}",
+      "updated": "Un Exhibicion ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Exhibicion ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Exhibicion {{ id }}?"
+      },
+      "detail": {
+        "title": "Exhibicion"
+      },
+      "id": "ID",
+      "nomExi": "Nombre de Exhibicion",
+      "fechIni": "Fecha de Inicio",
+      "fechFin": "Fecha Final",
+      "objArte": "ID Objeto de Arte"
+    }
+  }
+}

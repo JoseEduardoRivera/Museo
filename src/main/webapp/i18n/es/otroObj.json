@@ -1,0 +1,26 @@
+{
+  "museoApp": {
+    "otroObj": {
+      "home": {
+        "title": "Otro objeto de arte",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Otro Objeto",
+        "createOrEditLabel": "Crear o editar Otro Objeto",
+        "notFound": "Ningún Otro Objeto encontrado"
+      },
+      "created": "Un nuevo Otro Obj ha sido creado con el identificador {{ param }}",
+      "updated": "Un Otro Obj ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Otro Obj ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Otro Obj {{ id }}?"
+      },
+      "detail": {
+        "title": "Otro Objeto"
+      },
+      "id": "ID",
+      "tipo": "Tipo",
+      "estilo": "Estilo",
+      "objArte": "ID Objeto de Arte"
+    }
+  }
+}

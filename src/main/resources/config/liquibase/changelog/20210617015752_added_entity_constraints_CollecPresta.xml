@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+    <!--
+        Added the constraints for entity CollecPresta.
+    -->
+    <changeSet id="20210617015752-2" author="jhipster">
+
+        <addForeignKeyConstraint baseColumnNames="obj_arte_id"
+                                 baseTableName="collec_presta"
+                                 constraintName="fk_collec_presta__obj_arte_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="obj_arte"/>
+    </changeSet>
+</databaseChangeLog>

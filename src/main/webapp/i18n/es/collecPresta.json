@@ -1,0 +1,27 @@
+{
+  "museoApp": {
+    "collecPresta": {
+      "home": {
+        "title": "Coleccion de prestamo",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nueva coleccion de prestamo",
+        "createOrEditLabel": "Crear o editar coleccion de prestamo",
+        "notFound": "Ningúna coleccion de prestamo encontrada"
+      },
+      "created": "Una nueva coleccion de prestamo ha sido creada con el identificador {{ param }}",
+      "updated": "Una coleccion de prestamo ha sido actualizada con el identificador {{ param }}",
+      "deleted": "Una coleccion de prestamo ha sido eliminada con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminarcoleccion de prestamo {{ id }}?"
+      },
+      "detail": {
+        "title": "Coleccion de prestamo"
+      },
+      "id": "ID",
+      "infPrest": "Informacion del Prestamo",
+      "fechPrest": "Fecha del Prestamo",
+      "fechDev": "Fecha de Devolucion",
+      "objArte": "ID Objeto de Arte"
+    }
+  }
+}

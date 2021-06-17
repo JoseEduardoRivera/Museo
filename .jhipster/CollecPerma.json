@@ -1,0 +1,39 @@
+{
+  "name": "CollecPerma",
+  "fields": [
+    {
+      "fieldName": "exhibiAlmacen",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "costo",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "fecha",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "objArte",
+      "otherEntityRelationshipName": "collecPerma",
+      "relationshipName": "objArte",
+      "otherEntityField": "idObjArt"
+    }
+  ],
+  "entityTableName": "collec_perma",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210617015753"
+}

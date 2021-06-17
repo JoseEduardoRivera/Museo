@@ -1,0 +1,39 @@
+{
+  "name": "Pintura",
+  "fields": [
+    {
+      "fieldName": "tipoPintura",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "materialPintura",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "estiloPint",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "many-to-one",
+      "otherEntityName": "objArte",
+      "otherEntityRelationshipName": "pintura",
+      "relationshipName": "objArte",
+      "otherEntityField": "idObjArt"
+    }
+  ],
+  "entityTableName": "pintura",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210617015749"
+}

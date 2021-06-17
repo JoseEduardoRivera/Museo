@@ -1,0 +1,39 @@
+{
+  "name": "Exhibicion",
+  "fields": [
+    {
+      "fieldName": "nomExi",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "unique"]
+    },
+    {
+      "fieldName": "fechIni",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "fechFin",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-many",
+      "otherEntityName": "objArte",
+      "otherEntityRelationshipName": "exhibicion",
+      "relationshipName": "objArte",
+      "otherEntityField": "nomExi"
+    }
+  ],
+  "entityTableName": "exhibicion",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "changelogDate": "20210617015748"
+}

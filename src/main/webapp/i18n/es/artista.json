@@ -1,0 +1,30 @@
+{
+  "museoApp": {
+    "artista": {
+      "home": {
+        "title": "Artistas",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Artista",
+        "createOrEditLabel": "Crear o editar Artista",
+        "notFound": "Ningún Artistas encontrado"
+      },
+      "created": "Un nuevo Artista ha sido creado con el identificador {{ param }}",
+      "updated": "Un Artista ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Artista ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Artista {{ id }}?"
+      },
+      "detail": {
+        "title": "Artista"
+      },
+      "id": "ID",
+      "nomArt": "Nombre del Artista",
+      "fechNac": "Fecha de Nacimiento",
+      "fechDefu": "Fecha Defuncion",
+      "paisOrigen": "Pais Origen",
+      "estiloArt": "Estilo Arte",
+      "epoca": "Epoca",
+      "objArte": "ID Objeto de Arte"
+    }
+  }
+}
